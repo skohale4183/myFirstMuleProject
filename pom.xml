@@ -34,6 +34,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
+<<<<<<< HEAD
 						<muleVersion>4.4.0</muleVersion>
 						<!-- Deploy User Parameter -->
 						<username>surajkohale280</username>
@@ -43,6 +44,17 @@
 						<businessGroup>Perficient</businessGroup>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
+=======
+						<muleVersion>${mule.version}</muleVersion>
+						<!-- Deploy User Parameter -->
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<environment>${env}</environment>
+						<applicationName>${appname}</applicationName>
+						<businessGroup>${business}</businessGroup>
+						<workerType>${vCore}</workerType>
+						<workers>${workers}</workers>
+>>>>>>> ce76bf24da05f0ad5b9a627f25bda22b2d52eace
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
