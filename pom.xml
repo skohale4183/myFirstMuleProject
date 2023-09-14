@@ -33,16 +33,48 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+<<<<<<< HEAD
 					<!-- <uri>https://anypoint.mulesoft.com</uri>-->
+=======
+						<uri>https://anypoint.mulesoft.com</uri>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 32fbce758bdccc2d32ac31bc08e74eb1f39ea396
+>>>>>>> dd8562259c7a74ad7468c339e4dd53ed42b0fc96
 						<muleVersion>4.4.0</muleVersion>
 						<!-- Deploy User Parameter -->
 						<username>surajkohale280</username>
 						<password>Suraj@2945</password>
 						<environment>Sandbox</environment>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dd8562259c7a74ad7468c339e4dd53ed42b0fc96
 					 <applicationName>myfirstproject</applicationName>
 						<businessGroup>Perficient</businessGroup>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
+<<<<<<< HEAD
+=======
+=======
+					<!-- <applicationName>${appname}</applicationName>-->
+						<businessGroup>Perficient</businessGroup>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
+=======
+						<muleVersion>${mule.version}</muleVersion>
+						<!-- Deploy User Parameter -->
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<environment>${env}</environment>
+						<applicationName>${appname}</applicationName>
+						<businessGroup>${business}</businessGroup>
+						<workerType>${vCore}</workerType>
+						<workers>${workers}</workers>
+>>>>>>> ce76bf24da05f0ad5b9a627f25bda22b2d52eace
+>>>>>>> 32fbce758bdccc2d32ac31bc08e74eb1f39ea396
+>>>>>>> dd8562259c7a74ad7468c339e4dd53ed42b0fc96
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
